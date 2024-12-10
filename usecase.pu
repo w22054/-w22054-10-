@@ -7,8 +7,8 @@ package system{
 :user:-->f1
 :user:-->f2
 package system2{
-    usecase "function1" as f3
-    usecase "function2" as f4
+    usecase "function3" as f3
+    usecase "function4" as f4
 }
 :user:-->f3
 :user:-->f4

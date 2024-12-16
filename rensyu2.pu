@@ -1,0 +1,13 @@
+@startuml
+participant "Main Function"
+participant "calculate"
+participant "getInput"
+activate "Main Function"
+"Main Function"-->calculate:関数を呼び出します。
+activate "calculate"
+"calculate"-->getInput:入力
+activate "getInput"
+"getInput"-->calculate:入力データ
+activate "Main Function"
+"calculate"-->"Main Function":計算結果
+@enduml

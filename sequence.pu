@@ -1,5 +1,7 @@
 @startuml
 A-->B:request1
 B-->A:request2
+C-->A:go is god
+C-->B:go is god
 A->>B:async message
 @enduml

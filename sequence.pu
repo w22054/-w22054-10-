@@ -1,7 +1,6 @@
 @startuml
-A-->B:request1
-B-->A:request2
-C-->A:go is god
-C-->B:go is god
-A->>B:async message
+Client-->Server:request1
+Server-->Database:request2
+Database-->Server:data
+Server-->Client:data
 @enduml
